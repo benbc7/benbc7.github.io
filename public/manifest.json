@@ -1,14 +1,6 @@
 {
+  "short_name": "Portfolio",
   "name": "Ben Cutler Portfolio",
-  "homepage": "https://benbc7.github.io/portfolio",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "icons": [
     {
       "src": "favicon.ico",
