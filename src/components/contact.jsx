@@ -5,7 +5,7 @@ export default class Contact extends Component {
 		return (
 			<div className="row">
 				<div className="col-md-4 mb-3 mb-md-0">
-					<div className="card py-4 h-100" style={{ backgroundImage: 'url("/portfolio/images/card-left.jpg")', backgroundPosition: 'center', backgroundSize: 'cover' }}>
+					<div className="card py-4 h-100" style={{ backgroundImage: 'url("/cutler.app/images/card-left.jpg")', backgroundPosition: 'center', backgroundSize: 'cover' }}>
 						<div className="card-body text-center">
 							<i className="fas fa-map-marked-alt text-primary mb-2" />
 							<h4 className="text-uppercase m-0" style={{ color: '#437dc9' }}>Address</h4>
@@ -19,7 +19,7 @@ export default class Contact extends Component {
 					</div>
 				</div>
 				<div className="col-md-4 mb-3 mb-md-0">
-					<div className="card py-4 h-100" style={{ backgroundImage: 'url("/portfolio/images/card-center.jpg")', backgroundPosition: 'center', backgroundSize: 'cover' }}>
+					<div className="card py-4 h-100" style={{ backgroundImage: 'url("/cutler.app/images/card-center.jpg")', backgroundPosition: 'center', backgroundSize: 'cover' }}>
 						<div className="card-body text-center">
 							<i className="fas fa-envelope text-primary mb-2" />
 							<h4 className="text-uppercase m-0" style={{ color: '#437dc9' }}>Email</h4>
@@ -31,7 +31,7 @@ export default class Contact extends Component {
 					</div>
 				</div>
 				<div className="col-md-4 mb-3 mb-md-0">
-					<div className="card py-4 h-100" style={{ backgroundImage: 'url("/portfolio/images/card-right.jpg")', backgroundPosition: 'center', backgroundSize: 'cover' }}>
+					<div className="card py-4 h-100" style={{ backgroundImage: 'url("/cutler.app/images/card-right.jpg")', backgroundPosition: 'center', backgroundSize: 'cover' }}>
 						<div className="card-body text-center">
 							<i className="fas fa-mobile-alt text-primary mb-2" />
 							<h4 className="text-uppercase m-0" style={{ color: '#437dc9' }}>Phone</h4>

@@ -16,7 +16,7 @@ export default class About extends Component {
                         </p>
 						</div>
 					</div>
-					<img className="img-fluid" src="/portfolio/images/controller.png" alt="" />
+					<img className="img-fluid" src="/cutler.app/images/controller.png" alt="" />
 				</div>
 			</section>
 		)
