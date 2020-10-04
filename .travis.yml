@@ -4,6 +4,8 @@ node_js:
 cache:
   directories:
   - node_modules
+before_script:
+  - NODE_OPTIONS=-max_old_space_size=4096
 script:
   - npm run build
 deploy:
