@@ -16,7 +16,7 @@ export default class About extends Component {
                         </p>
 						</div>
 					</div>
-					<img className="img-fluid" src="/portfolio/images/ipad.png" alt="" />
+					<img className="img-fluid" src="" alt="" />
 				</div>
 			</section>
 		)

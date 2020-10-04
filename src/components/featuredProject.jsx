@@ -6,7 +6,7 @@ export default class FeaturedProject extends Component {
 		return (
 			<div className="row align-items-center no-gutters mb-4 mb-lg-5">
 				<div className="col-xl-8 col-lg-7">
-					<ReactPlayer className="img-fluid mb-3 mb-lg-0" url="https://www.youtube.com/watch?v=7sDY4m8KNLc" />
+					<ReactPlayer className="img-fluid mb-3 mb-lg-0" url="" />
 				</div>
 				<div className="col-xl-4 col-lg-5">
 					<div className="featured-text text-center text-lg-left">

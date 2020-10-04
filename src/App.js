@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './components/navbar'
 import Masthead from './components/masthead'
 import About from './components/about'
 import FeaturedProject from './components/featuredProject'
@@ -14,7 +13,6 @@ class App extends Component {
     return (
       <div id="colorlib-page">
         <div id="container-wrap">
-          <Navbar></Navbar>
           <Masthead></Masthead>
           <About></About>
           <section className="projects-section bg-light" id="projects">
@@ -23,14 +21,14 @@ class App extends Component {
               <OtherProjects></OtherProjects>
             </div>
           </section>
-          <section className="contact-section bg-black">
+          <section className="contact-section bg-black" id="contact">
             <div className="container">
               <Contact></Contact>
               <SocialMedia></SocialMedia>
             </div>
           </section>
           <footer className="footer bg-black small text-center text-white-50">
-            <div className="container">Copyright © Your Website 2020</div>
+            <div className="container">Made with love by Ben Cutler, 2020</div>
           </footer>
         </div>
       </div>

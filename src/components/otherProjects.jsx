@@ -8,7 +8,7 @@ export default class OtherProjects extends Component {
 				{/* Project One Row*/}
 				<div className="row justify-content-center no-gutters mb-5 mb-lg-0">
 					<div className="col-lg-6">
-						<ReactPlayer className="img-fluid" url="https://www.youtube.com/watch?v=7sDY4m8KNLc" />
+						<ReactPlayer className="img-fluid" url="" />
 					</div>
 					<div className="col-lg-6">
 						<div className="bg-black text-center h-100 project">
@@ -27,7 +27,7 @@ export default class OtherProjects extends Component {
 				{/* Project Two Row*/}
 				<div className="row justify-content-center no-gutters">
 					<div className="col-lg-6">
-						<ReactPlayer className="img-fluid" url="https://www.youtube.com/watch?v=7sDY4m8KNLc" />
+						<ReactPlayer className="img-fluid" url="" />
 					</div>
 					<div className="col-lg-6 order-lg-first">
 						<div className="bg-black text-center h-100 project">
