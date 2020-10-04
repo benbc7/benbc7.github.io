@@ -23,7 +23,6 @@ class App extends Component {
               <OtherProjects></OtherProjects>
             </div>
           </section>
-          <Signup></Signup>
           <section className="contact-section bg-black">
             <div className="container">
               <Contact></Contact>

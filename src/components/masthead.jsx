@@ -7,10 +7,9 @@ export default class Masthead extends Component {
 				<header className="masthead">
 					<div className="container d-flex h-100 align-items-center">
 						<div className="mx-auto text-center">
-							<h1 className="mx-auto my-0 text-uppercase">Grayscale</h1>
-							<h2 className="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by
-                    		Start Bootstrap.</h2>
-							<a className="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+							<h1 className="mx-auto my-0 text-uppercase">Ben Cutler</h1>
+							<h2 className="text-white-50 mx-auto mt-2 mb-5">Game Developer</h2>
+							<a className="btn btn-primary js-scroll-trigger" href="#about">Delete me, add scroll</a>
 						</div>
 					</div>
 				</header>

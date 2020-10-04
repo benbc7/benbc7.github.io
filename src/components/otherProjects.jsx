@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactPlayer from 'react-player'
 
 export default class OtherProjects extends Component {
 	render() {
@@ -6,7 +7,9 @@ export default class OtherProjects extends Component {
 			<div>
 				{/* Project One Row*/}
 				<div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-					<div className="col-lg-6"><img className="img-fluid" src="images/demo-image-01.jpg" alt="" /></div>
+					<div className="col-lg-6">
+						<ReactPlayer className="img-fluid" url="https://www.youtube.com/watch?v=7sDY4m8KNLc" />
+					</div>
 					<div className="col-lg-6">
 						<div className="bg-black text-center h-100 project">
 							<div className="d-flex h-100">
@@ -23,7 +26,9 @@ export default class OtherProjects extends Component {
 				</div>
 				{/* Project Two Row*/}
 				<div className="row justify-content-center no-gutters">
-					<div className="col-lg-6"><img className="img-fluid" src="images/demo-image-02.jpg" alt="" /></div>
+					<div className="col-lg-6">
+						<ReactPlayer className="img-fluid" url="https://www.youtube.com/watch?v=7sDY4m8KNLc" />
+					</div>
 					<div className="col-lg-6 order-lg-first">
 						<div className="bg-black text-center h-100 project">
 							<div className="d-flex h-100">
